@@ -22,8 +22,8 @@ const port = 5000;
 const server = app.listen(port, () => console.log(`Server started on port ${port}`));
 
 const nexmo = new Nexmo({
-    apiKey: 'afda69f5',
-    apiSecret: 'NnpF0fG5rW2YPGXz'
+    apiKey: 'YOUR_API_KEY',
+  apiSecret: 'YOUR_API_SECRET'
   }, { debug: true });
 
 // Web UI ("Registration Form")
